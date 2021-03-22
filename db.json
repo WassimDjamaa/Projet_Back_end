@@ -1,0 +1,76 @@
+{
+  "jeux": [
+    {
+      "id": 1,
+      "title": "Mario kart",
+      "genre":"course",
+      "description": "c'est un jeu de voiture"
+    },
+    {
+      "id": 2,
+      "title": "GTA 5",
+      "genre":"Action",
+      "description": "devenir millionnaire"
+    }, {
+      "id": 3,
+      "title": "FIFA 21",
+      "genre":"Sport",
+      "description": "gagner des championnat"
+    }
+  ],
+
+  "consoles": [
+    {
+      "id": 1,
+      "nom": "Switch",
+      "jouabilite": "portable",
+      "anneeSortie": "2017",
+      "jeuxId": 1
+    },
+    {
+      "id": 2,
+      "nom": "PS4",
+      "jouabilite": "TV",
+      "anneeSortie": "2013",
+      "jeuxId": 1
+    }, 
+    {
+      "id": 3,
+      "nom": "Xbox",
+      "jouabilite": "TV",
+      "anneeSortie": "2017",
+      "jeuxId": 1
+    },
+    {
+      "id": 4,
+      "nom": "PS2",
+      "jouabilite": "multimédia",
+      "anneeSortie": "2017",
+      "jeuxId": 1
+    },
+    {
+      "id": 5,
+      "nom": "WII",
+      "jouabilite": "TV",
+      "anneeSortie": "2017",
+      "jeuxId": 1
+    },
+    {
+      "id": 6,
+      "nom": "DS",
+      "jouabilite": "portable",
+      "anneeSortie": "2017",
+      "jeuxId": 1
+    }
+  ],
+  "competitions":[
+    {
+      "consoleId":[1,2]
+    }
+  ],
+  "partieAmicale": [
+    {
+      "consoleId": [3,5]
+    }
+  ]
+}
